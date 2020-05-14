@@ -1,0 +1,25 @@
+{
+  "name": "google-blockly",
+  "version": "1.0.0",
+  "description": "Blockly Sandbox testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzaplet/google-blockly.git"
+  },
+  "keywords": [
+    "Blockly"
+  ],
+  "author": "Jiří Zapletal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jzaplet/google-blockly/issues"
+  },
+  "homepage": "https://github.com/jzaplet/google-blockly#readme",
+  "dependencies": {
+    "blockly": "^3.20200402.1"
+  }
+}

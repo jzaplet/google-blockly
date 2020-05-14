@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Google blockly sandbox</title>
+</head>
+<body>
+
+<button id="run-code" style="margin-bottom: 1rem">
+    Spustit kód
+</button>
+
+<div id="blockly-div" style="height: 600px; width: 900px;"></div>
+
+<xml xmlns="https://developers.google.com/blockly/xml" id="blockly-toolbox" style="display: none">
+    <block type="move-to"></block>
+    <block type="math_number"></block>
+</xml>
+
+<script src="node_modules/blockly/blockly.js"></script>
+<script src="node_modules/blockly/blocks.js"></script>
+<script src="node_modules/blockly/msg/cs.js"></script>
+<script src="node_modules/blockly/javascript.js"></script>
+
+<script src="js/custom-blocks/move-to.js"></script>
+<script src="js/hero.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

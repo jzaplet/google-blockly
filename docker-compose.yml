@@ -1,0 +1,8 @@
+nginx:
+  image: nginx:1.17.6-alpine
+  restart: "no"
+  ports:
+    - "80:80"
+  volumes:
+    - ./app:/usr/share/nginx/html:cached
+    - ./node_modules:/usr/share/nginx/html/node_modules:cached
