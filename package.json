@@ -6,6 +6,6 @@
   "author": "Jiří Zapletal <jz@strategio.dev>",
   "license": "MIT",
   "dependencies": {
-    "blockly": "^9.2.1"
+    "blockly": "4.20201217.0"
   }
 }
