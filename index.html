@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Google Blockly</title>
+</head>
+<body>
+
+<div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+
+<div style="margin-top: 2rem">
+    <button id="exportButton">Export</button>
+    <button id="importButton">Import</button>
+    <button id="clearButton">Clear</button>
+    <button id="showCodeButton">Get code</button>
+</div>
+
+<textarea id="input" style="width: 600px; display: block; margin-bottom: .5rem; height: 200px; padding: 1rem; margin-top: 2rem"></textarea>
+
+<pre id="code" style="width: 600px; height: 300px; overflow: auto; padding: 1rem; border: 1px solid #ccc; margin-top: 2rem"></pre>
+
+<xml id="toolbox" style="display: none">
+    <block type="controls_if"></block>
+    <block type="controls_whileUntil"></block>
+</xml>
+
+<script src="node_modules/blockly/blockly_compressed.js"></script>
+<script src="node_modules/blockly/blocks_compressed.js"></script>
+<script src="node_modules/blockly/javascript_compressed.js"></script>
+<script src="node_modules/blockly/msg/cs.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

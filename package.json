@@ -1,0 +1,11 @@
+{
+  "name": "google-blockly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jzaplet/google-blockly.git",
+  "author": "Jiří Zapletal <jz@strategio.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "blockly": "^9.2.1"
+  }
+}
